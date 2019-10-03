@@ -1,0 +1,12 @@
+﻿<Window x:Class="BTTONGHIEU.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btntong" Content="Tổng" HorizontalAlignment="Left" Height="27" Margin="79,141,0,0" VerticalAlignment="Top" Width="71" Click="btntong_Click"/>
+        <Button x:Name="btnhieu" Content="Hiệu" HorizontalAlignment="Left" Height="27" Margin="255,141,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="lbltinh" Content="Tính" HorizontalAlignment="Left" Height="28" Margin="79,36,0,0" VerticalAlignment="Top" Width="76"/>
+        <ListBox x:Name="lbxtinh" HorizontalAlignment="Left" Height="28" Margin="178,36,0,0" VerticalAlignment="Top" Width="128"/>
+
+    </Grid>
+</Window>
